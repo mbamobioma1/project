@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.header img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+.text{
+    position: absolute;
+    color: #fff;
+    font-size: 5vw;
+    z-index: 2;
+    top: 80px;
+    left: 120px;
+}
+/*section2*/
+.section2{
+    text-align: center;
+    line-height: 30px;
+       padding: 10px;
+    border-bottom: 2px solid #808080;
+}
+.diversity{
+    color: #008000;
+    font-size: 3vw;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 2vw;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #008000;
+}
+button:hover{
+    background-color: #003300;
+}
+/*section3*/
+.section3{
+    border-bottom: 2px solid #808080;
+}
+.college{
+    text-align: center;
+    font-size: 3vw;
+    color: #008000;
+}
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-container{
+    width: 300px;
+    margin: 20px;
+    cursor: pointer;
+}
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+.desc1{
+    text-align: center;
+    color: #008000;
+}
+.desc2{
+    text-align: center;
+}
+/*section4*/
+.section4{
+    border-bottom: 2px solid #808080;
+}
+.college1{
+    text-align: center;
+    font-size: 3vw;
+    color: #008000;
+}
+.image-gallery1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-container1{
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.image-container1 img{
+    width: 100%;
+    height: auto;
+}
+.desc1{
+    text-align: center;
+    color: #008000;
+    font-size: 2vw;
+}
+.desc2{
+    text-align: center;
+}
+/*footer section*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #008000;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer > div {
+    margin: 30px;
+}
+.footer button{
+    border: 1px solid #fff;
+    border-radius: 0;
+    font-size: 1.5vw;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*for mobile less than 600px*/
+@media only screen and (max-width:600px){
+    .desc1{
+        font-size: 3vw;
+    }
+    button{
+        font-size: 3vw;
+    }
+    .footer button{
+        font-size: 3vw;
+    }
+    .text{
+        font-size: 3.5vw;
+        left: 80px;
+    }
+    
+}
